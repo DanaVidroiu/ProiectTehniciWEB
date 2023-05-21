@@ -37,15 +37,30 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color:   rgba(215, 183, 39, 0.753);}
+  
 
-
-
+  span {
+    display: inline-block;
+    position: fixed;
+    padding: 16px;
+    right: 8px;
+    bottom: 8px;
+    background: rgb(193, 150, 157);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  span:hover {
+    background: rgb(216, 184, 43);;
+  }
 
 
 body{
     margin: 0;
     padding: 0;
     background-color: rgba(236, 193, 201, 0.425);
+    overflow: auto;
 }
 
 body > img{
