@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.dropbtn {
+    background-color: rgb(216, 184, 43, 0.80);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    border: none;
+  }
+
+.dropdown{
+    width: 200px;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:  rgba(215, 183, 39, 0.662);
+    min-width: 160px;
+}
+
+.dropdown-content a{
+    display: block;
+    background-color:rgba(242, 196, 196, 0.982);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size:17px;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: rgba(188, 130, 141, 0.90);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:   rgba(215, 183, 39, 0.753);}
+  
+
+  span {
+    display: inline-block;
+    position: fixed;
+    padding: 16px;
+    right: 8px;
+    bottom: 8px;
+    background: rgb(193, 150, 157);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  span:hover {
+    background: rgb(216, 184, 43);;
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(236, 193, 201, 0.425);
+    overflow: auto;
+}
+
+body > img{
+    height: 525px;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+.trailer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.titlu h1{
+    color: rgb(216, 184, 43);
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: 100px;
+ }
+
+ .subtitlu p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .prezentare{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+}
+.prop_prezentare{
+    padding: 0px 50px;
+}
+
+.prop_prezentare p{
+    text-indent: 50px;
+}
+
+.distributia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.distributia img{
+    max-width: 100%;
+    width: 1000px;
+    padding-top: 30px;
+}
+.distributia table{
+    margin-top: 30px;
+}
+ .recenzie p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+ }
+
+ .prop_recenzie{
+    padding: 0px 50px;
+    text-indent: 50px;
+ }
+
+.distributie p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.premii p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.prop_premii p{
+    text-align: center;
+}
+
+.date p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+}
+.prop_date{
+    margin-left: calc(44%/2);
+    margin-bottom: 80px;
+}
+.galerie{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.gallery {
+    margin: 35px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 215px;
+    height: 180px;
+  }
+  
+ .gallery:hover {
+    border: 2px solid #777;
+  } 
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+  }
