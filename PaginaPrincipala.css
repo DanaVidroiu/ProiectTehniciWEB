@@ -4,8 +4,15 @@
     font-family: 'Parisienne', cursive;
     text-align: center;
     margin-top: 200px;
-    font-size: 110px;
- }
+    font-size: 110px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.titlu h1:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
 
 
 
@@ -38,6 +45,28 @@ body::before {
   filter: blur(4px); 
   z-index: -2; 
 }
+
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+    top: 30px;
+    right: 30px;
+  }
+  100% {
+    transform: rotate(360deg);
+    top: 30px;
+    right: 30px;
+  }
+}
+
+.rotation {
+  animation: rotation 3s linear 0s infinite;
+  position: absolute;
+  color: white;
+}
+
 
 
 
@@ -110,4 +139,3 @@ input:not([type="radio"]):not([type="checkbox"]) {
   
 
   
-
