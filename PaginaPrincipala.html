@@ -12,40 +12,57 @@
         <h1>Filme de văzut într-o viață</h1>
     </div>
     <br>
-
-
+    
+<div class="rotation">Filme noi</div>
   
+
 <div id="form-wrapper">
   <form id="my-form">
-    <div class = "prop_formular">
+    <div class="prop_formular">
       <h3>Dacă doriți să fiți la curent cu filmele care vor apărea, atunci completați următorul formular:</h3>
     </div>
-    <br> 
+    <br>
 
-    <input type="text" value="Nume" name="Nume" />
-    <input type="email" placeholder="Email" name="email" required />
-    <input type="password" value="secret" />
-    <input type="datetime-local" value="2022-03-19T12:59" />
+    <div>
+      <input type="text" id="name" value="Nume" name="Nume" />
+      <span id="name-error" class="error-message"></span>
+    </div>
+
+    <div>
+      <input type="email" id="email" placeholder="Email" name="email" required />
+      <span id="email-error" class="error-message"></span>
+    </div>
+
+    <div>
+      <input type="password" id="password" value="secret" />
+      <span id="password-error" class="error-message"></span>
+    </div>
+
+    <div>
+      <input type="datetime-local" id="date" value="2022-03-19T12:59" />
+      <span id="date-error" class="error-message"></span>
+    </div>
 
     <div>
       <input type="radio" name="gen" id="romantic" />
       <label for="romantic">Romantic</label>
-      <input type="radio" name="gen" id="acțiune" />
-      <label for="acțiune">Acțiune</label>
+      <input type="radio" name="gen" id="actiune" />
+      <label for="actiune">Acțiune</label>
       <input type="radio" name="gen" id="comedie" />
       <label for="comedie">Comedie</label>
+      <span id="gen-error" class="error-message"></span>
     </div>
 
     <div>
       <input type="checkbox" id="terms" />
       <label for="terms">Sunt de acord cu termenii</label>
+      <span id="terms-error" class="error-message"></span>
     </div>
 
     <input type="reset" />
     <input type="submit" />
   </form>
 </div>
-
 
 
     <div class="dropdown">
