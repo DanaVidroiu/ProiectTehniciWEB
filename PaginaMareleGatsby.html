@@ -1,293 +1,273 @@
-<!DOCTYPE html>
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marele Gatsby(2013)</title>
-    <link rel="stylesheet" type="text/css" href="PaginaGatsby.css">
-</head>
+/* butonul*/
+.dropbtn {
+    background-color: rgb(216, 184, 43, 0.80);
+    color: white;
+    padding: 2vh;
+    font-size: 2vh;
+    font-family: 'Lora', serif;
+    border: none;
+  }
 
-<body>
-    
+.dropdown{
+    width: 10vh;
+    position: relative;
+}
 
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:  rgba(215, 183, 39, 0.662);
+    min-width: 2vh;
+}
 
-<img src="the great gatsby .jpeg" alt="poster">
+.dropdown-content a{
+    display: block;
+    background-color:rgba(242, 196, 196, 0.982);
+    color: white;
+    text-decoration: none;
+    padding: 3vh;
+    font-size:2vh;
+    text-align: center;
+}
 
-    <div class="dropdown">
-      <button class="dropbtn">Filme</button>
-      <div class="dropdown-content">
-        <a href="#prezentare">Prezentare</a>
-        <a href="#recenzie">Recenzie</a>
-        <a href="#distributie">Distribuție</a>
-        <a href="#premii">Premii</a>
-        <a href="#date">Date tehnice</a>
-        <a href="#galerie">Galerie foto</a>
-      </div>
-    </div>
+.dropdown-content a:hover {background-color: rgba(188, 130, 141, 0.90);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:   rgba(215, 183, 39, 0.753);}
   
-    <span>
-        <i><p>IMDb RATING</p>
-        <p>7.2/10</p></i>
-    </span>
+
+
+
+  span {
+    display: inline-block;
+    position: fixed;
+    padding: 2vh;
+    right: 1vh;
+    bottom: 1vh;
+    background: rgb(193, 150, 157);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+  }
   
-    <div class="titlu">
-        <h1>Marele Gatsby</h1>
-    </div>
-    <br>
-
-    <div class="subtitlu">
-        <p>142 minute | Dramă, Romantic, Dragoste</p>
-    </div>
-    <br>
-
-    <i>
-        <div class="prezentare">
-            <hr id="prezentare"> <br>
-            <i><p>Prezentare film:</p></i>
-        </div>
-    </i>
-    <br>
-
-    <div class="prop_prezentare">
-    <p>The Great Gatsby este o dramă în regia lui Baz Luhrmann, după un scenariu de Baz Luhrmann şi Craig Pearce, având
-        la bază romanul The Great Gatsby al scriitorului american F. Scott Fitzgerald.
-        Din distribuţie fac parte: Leonardo DiCaprio, Tobey Maguire, Carey Mulligan, Joel Edgerton, Isla Fisher,
-        Elizabeth Debicki şi Jason Clarke.</p>
-    <p>Acţiunea filmului se petrece în New York-ul anilor 1920, în epoca "anilor nebuni", prezentând povestea lui Jay
-        Gatsby (Leonardo DiCaprio), un bărbat cu un trecut misterios, celebru pentru petrecerile sale, care în aparenţă
-        are tot ce îşi doreşte: bani, faimă şi modul de viaţă al unui milionar american.</p>
-    <p>Nick Carraway (Tobey Maguire), absovent al Univesităţii Yale şi scriitor în devenire, a cărui locuinţă se
-        învecina cu domeniul lui Jay Gatsby, este atras de această lume extravagantă, dar mai ales, de misteriosul său
-        vecin.
-        Nu întâmplător, Jay Gatsby îi deschide uşile şi îl introduce în această lume a oamenilor bogaţi.</p>
-    <p>Astfel, împrietenindu-se cu Jay, Nick va realiza că tot ceea ce făcea Gatsby era pentru a fi aproape de verişoara
-        lui Nick, Daisy Buchanan (Carey Mulligan), de care era profund îndrăgostit încă din anii tinereţii.</p>
-    <p>Dar, frumoasa şi superficiala Daisy este acum captivă într-o casătorie formală cu un soţ afemeiat, Tom Buchanan
-        (Joel Edgerton).
-        Când Daisy, aflată la volanul maşinii lui Gatsby, provoacă un accident mortal, lucrurile vor lua o întorsătură
-        dramatică.</p>
-    </div>
-    <br>
-
-    <div class="trailer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rARN6agiW7o?start=1"
-            title="Trailer Marele Gatsby" ; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-            web-share" allowfullscreen></iframe>
-    </div>
-    <br> <br>
-
-    <i>
-        <div class="recenzie">
-            <hr id="recenzie"> <br>
-            <i><p>Recenzie:</p></i>
-        </div>
-    </i>
-
-    <div class="prop_recenzie">
-    <p>Marele Gatsby spune o poveste fascinanta de iubire, speranta si suferinta. Intr-o lume magica a muzicii jaz si a
-        petrecerilor sclipitoare de dupa anii tumultosi ai primului razboi mondial.
-        Actiunea are loc in America, Nick Carraway naratorul acestei povesti fascinante, se muta intr-o casa in West
-        Egg,avandul ca vecin pe Gatsby, un milionar ce organizeaza petreceri iesite din comun in vila sa uimitoare.
-        De partea cealalta a golfului se intinde East Eggul, o zona locuita doar de oameni bogati. Aici in aceasta zona
-        locuieste, Daisy verisoara lui Nick.
-        Pe masura ce continui sa citesti cartea vei descoperi ca intre aceste personaje exista o legatura ce pana atunci
-        o ignorai si nici nu banuiai ca se afla acolo.
-        Cartea prezinta visul american ce din pacate se transforma treptat in cosmar.
-        Gatsby este unul dintre personajele care viseaza, doreste foarte mult ca dorintele lui sa devina realitate si
-        chiar actioneaza pentru a le vedea materializate in fata ochilor sai. El reuseste sa devina bogat insa acest
-        lucru nu este de ajuns; el vrea sa recastige vechea dragoste ce a existat intre el si Daisy in tinerete.
-        El organizeaza aceste petreceri extravagante pentru a o acapara, pentru a o atrage in acel loc, alaturi de el.
-        Insa, din pacate Daisy este casatorita cu Tom Buchanan, un om egoist si o persoana enervanta; cel mai enervant
-        personaj din aceasta carte. Relatia dintre Daisy si Gatsby este una complicata, Gatsby traieste in trecut in
-        iluzia acelei iubiri, insa Daisy este o egoista, nepasatoare care va face orice sa isi salveze pielea, sa ii fie
-        ei bine si in rest nimic.
-        Romanul scoate in evidenta cum dragostea poate sa te autodistruga usor, cum poate sa transforme un om puternic
-        intr-o persoana lipsita de puteri si cum visele te pot macina usor; daca nu te trezesti la realitate din timp.
-        Cartea este foarte complexa, neobisnuita este ca un val ce trece peste tine lasand urme, trezeste in mintea ta o
-        multitudine de intrebari, te face sa reflectezi asupra unor aspecte pe care nu le luai in considerare. Este o
-        carte matura, o carte ce o intelegi, ce iti este aproape de suflet.
-    </p>
-    </div>
-    <br>
-
-    <i>
-        <div class="distributie">
-            <hr id="distributie"><br> 
-            <i><p>Distribuția:</p> </i>
-        </div>
-    </i>
-
-    <div class="distributia">
-        <table style="width:45%">
-            <tr>
-                <td><a href="https://www.imdb.com/name/nm0000138/" target="_blank">Leonardo DiCaprio</a></td>
-                <td>Jay Gatsby</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.imdb.com/name/nm1659547/" target="_blank">Carey Mulligan</a></td>
-                <td>Daisy Buchanan</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tobey Maguire</a></td>
-                <td>Nick Carraway</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.imdb.com/name/nm0249291/" target="_blank">Joel Edgerton</a></td>
-                <td>Tom Buchanan</td>
-            </tr>
-            <td><a href="https://www.imdb.com/name/nm4456120/" target="_blank">Elizabeth Debicki</a></td>
-            <td>Jordan Baker</td>
-            <tr>
-                <td><a href="https://www.imdb.com/name/nm0279545/" target="_blanket">Isla Fisher</a></td>
-                <td>Myrtle Wilson</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.imdb.com/name/nm0164809/" target="_blank">Jason Clarke</a></td>
-                <td>George B. Wilson</td>
-            </tr>
-        </table>
-
-        <img src="https://wab.org/wp-content/uploads/2015/06/gatsbycast.jpg">
-    </div>
-    <br>
-
-    <i>
-        <div class="premii">
-          <hr id="premii"> <br> 
-            <i><p>Premii:</p></i>
-        </div>
-    </i>
-
-    <div class="prop_premii">
-        <p>The Great Gatsby (2013) a câştigat 25 de premii şi 38 de nominalizări, dintre care două la Oscar 2014.</p>
-    </div>
-    <br>
-
-    <i>
-        <div class="date">
-            <hr id="date"> <br>
-            <i><p>Datele filmului:</p></i>
-        </div>
-    </i>
-
-    <div class="prop_date">
-        <ul>
-            <li>Regizor: <a href="https://www.imdb.com/name/nm0525303/" target="_blank">Baz Luhrmann</a></li>
-            <li>Scenariu: <a href="https://www.imdb.com/name/nm0525303/" target="_blank">Baz Luhrmann</a> și <a
-                    href="https://en.wikipedia.org/wiki/Craig_Pearce" target="_blank">Craig Pearce</a>, bazat pe Marele
-                Gatsby de <a href="https://en.wikipedia.org/wiki/F._Scott_Fitzgerald" target="_blank">F. Scott
-                    Fitzgerald</a></li>
-            <li>În distribuţie: Leonardo DiCaprio, Tobey Maguire, Carey Mulligan, Joel Edgerton, Isla Fisher, Elizabeth
-                Debicki, Jason Clarke</li>
-            <li>Muzică: <a href="https://en.wikipedia.org/wiki/Craig_Armstrong_(composer)" target="_blank">Craig
-                    Armstrong</a></li>
-            <li>Seturi și costume: <a href="https://en.wikipedia.org/wiki/Catherine_Martin_(designer)"
-                    target="_blank">Catherine Martin</a></li>
-            <li>Companie de distribuție: <a href="https://en.wikipedia.org/wiki/Warner_Bros." target="_blank">Warner
-                    Bros.</a></li>
-            <li>Limba originală: engleză</li>
-            <li>Buget: 125 milioane de dolari</li>
-            <li>Date de lansare:</li>
-            <ol type="a">
-                <li>Premiera în România: 17.05.2013</li>
-                <li>Premiera internațională 10.05.2013</li>
-            </ol>
-        </ul>
-    </div>
+  span:hover {
+    background: rgb(216, 184, 43);;
+  }
 
 
-    <div class="galerie">
-        <hr id="galerie"><br> 
-        <i><p>Galerie foto:</p></i>
-    </div>
-    <br>
 
-     <div class="gallery">
 
-            <button class="prev-button">&lt;</button>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(236, 193, 201, 0.425);
+    overflow: auto;
+}
 
-            <div class="gallery-slider">
-              <a target="_blank" href="https://2mnews.ro/wp-content/uploads/2019/07/foto-6.jpg">
-                <img src="https://2mnews.ro/wp-content/uploads/2019/07/foto-6.jpg" width="600" height="400">
-              </a>
-              <a target="_blank" href="https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/the-great-gatsby-2013/gatsbywide.png">
-                <img src="https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/the-great-gatsby-2013/gatsbywide.png" width="600" height="400">
-              </a>
-              <a target="_blank" href="https://www.justwatch.com/images/backdrop/389938/s640/marele-gatsby">
-                <img src="https://www.justwatch.com/images/backdrop/389938/s640/marele-gatsby">
-              </a>
-              <a target="_blank" href="https://www.hollywoodreporter.com/wp-content/uploads/2013/04/GG06892rc_a_l.jpg?w=1024">
-                <img src="https://www.hollywoodreporter.com/wp-content/uploads/2013/04/GG06892rc_a_l.jpg?w=1024">
-              </a>
-              <a target="_blank" href="https://anzhelamovies.files.wordpress.com/2013/05/the-great-gatsby_2013-7-1200x799.jpg?w=595">
-                <img src="https://anzhelamovies.files.wordpress.com/2013/05/the-great-gatsby_2013-7-1200x799.jpg?w=595">
-              </a>
-              <a target="_blank" href="https://media.vogue.co.uk/photos/6013002eec2a1daceec7cfc7/master/w_1600%2Cc_limit/shutterstock_editorial_5886104ar.jpg">
-                <img src="https://media.vogue.co.uk/photos/6013002eec2a1daceec7cfc7/master/w_1600%2Cc_limit/shutterstock_editorial_5886104ar.jpg">
-              </a>
-              <a target="_blank" href="https://static01.nyt.com/images/2013/05/19/arts/19ACQUISITION5/19ACQUISITION-superJumbo.jpg">
-                <img src="https://static01.nyt.com/images/2013/05/19/arts/19ACQUISITION5/19ACQUISITION-superJumbo.jpg" >
-              </a>
-              <a target="_blank" href="https://neverfeltbetter.files.wordpress.com/2013/05/tgg5.jpg">
-                <img src="https://neverfeltbetter.files.wordpress.com/2013/05/tgg5.jpg" >
-              </a>
-              <a target="_blank" href="https://m.media-amazon.com/images/M/MV5BMjEwMjIxNDQ2OF5BMl5BanBnXkFtZTcwMTcwOTM0OQ@@._V1_.jpg">
-                <img src="https://m.media-amazon.com/images/M/MV5BMjEwMjIxNDQ2OF5BMl5BanBnXkFtZTcwMTcwOTM0OQ@@._V1_.jpg" >
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/originals/a0/46/60/a046609b8edecf4f03ce2405c4e32e06.jpg">
-                <img src="https://i.pinimg.com/originals/a0/46/60/a046609b8edecf4f03ce2405c4e32e06.jpg" >
-              </a>
-              <a target="_blank" href="https://i-viaplay-com.akamaized.net/viaplay-prod/526/628/1461847322-fda1815d31a91786605f86c704da4c5fcbb35ab1.jpg?width=840&height=472">
-                <img src="https://i-viaplay-com.akamaized.net/viaplay-prod/526/628/1461847322-fda1815d31a91786605f86c704da4c5fcbb35ab1.jpg?width=840&height=472" >
-              </a>
-              <a target="_blank" href="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/11774146/image/265bb528b09e890a66eaa658cd2441ba">
-                <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/11774146/image/265bb528b09e890a66eaa658cd2441ba" >
-              </a>
-              <a target="_blank" href="https://i0.wp.com/www.featherfactor.com/wp-content/uploads/2015/05/The-Great-Gatsby-5.png?resize=700%2C554">
-                <img src="https://i0.wp.com/www.featherfactor.com/wp-content/uploads/2015/05/The-Great-Gatsby-5.png?resize=700%2C554" >
-              </a>
-              <a target="_blank" href="https://i0.wp.com/projectedfigures.com/wp-content/uploads/2013/05/iu-184.jpeg?resize=810%2C492&ssl=1">
-                <img src="https://i0.wp.com/projectedfigures.com/wp-content/uploads/2013/05/iu-184.jpeg?resize=810%2C492&ssl=1">
-              </a>
-              <a target="_blank" href="https://dallas.culturemap.com/media-library/the-great-gatsby.jpg?id=30629436&width=980">
-                <img src="https://dallas.culturemap.com/media-library/the-great-gatsby.jpg?id=30629436&width=980">
-              </a>
-              <a target="_blank" href="https://m.media-amazon.com/images/M/MV5BMTkzNzU5NzA5M15BMl5BanBnXkFtZTcwMzcwOTM0OQ@@._V1_.jpg">
-                <img src="https://m.media-amazon.com/images/M/MV5BMTkzNzU5NzA5M15BMl5BanBnXkFtZTcwMzcwOTM0OQ@@._V1_.jpg">
-              </a>
-              <a target="_blank" href="https://images.theconversation.com/files/288121/original/file-20190815-136213-1wud6ff.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip">
-                <img src="https://images.theconversation.com/files/288121/original/file-20190815-136213-1wud6ff.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/28/47/ab/2847abc7be252df42fd953188cb15a6c.jpg">
-                <img src="https://i.pinimg.com/564x/28/47/ab/2847abc7be252df42fd953188cb15a6c.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/12/a1/b2/12a1b2173fcd9893060fd90f252b7a54.jpg">
-                <img src="https://i.pinimg.com/564x/12/a1/b2/12a1b2173fcd9893060fd90f252b7a54.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/94/1e/4d/941e4d6b0601671787015aa6d43de75d.jpg">
-                <img src="https://i.pinimg.com/564x/94/1e/4d/941e4d6b0601671787015aa6d43de75d.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/43/e6/72/43e672446291befe7243cb1f496809fb.jpg">
-                <img src="https://i.pinimg.com/564x/43/e6/72/43e672446291befe7243cb1f496809fb.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/d9/28/17/d9281799ba7c0fe055925964b70b8084.jpg">
-                <img src="https://i.pinimg.com/564x/d9/28/17/d9281799ba7c0fe055925964b70b8084.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/6d/97/d6/6d97d6e478de0221e570ecdf745d568d.jpg">
-                <img src="https://i.pinimg.com/564x/6d/97/d6/6d97d6e478de0221e570ecdf745d568d.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/e1/26/ad/e126ad7781fa7c87bd42e8a1d9cf2d90.jpg">
-                <img src="https://i.pinimg.com/564x/e1/26/ad/e126ad7781fa7c87bd42e8a1d9cf2d90.jpg">
-              </a>
-              <a target="_blank" href="https://i.pinimg.com/564x/bf/0b/b2/bf0bb20a3f4e00f1d604449b990c2953.jpg">
-                <img src="https://i.pinimg.com/564x/bf/0b/b2/bf0bb20a3f4e00f1d604449b990c2953.jpg">
-              </a>
-            </div>
-        <button class="next-button">&gt;</button>
-    </div>
-    
-     <script src="PaginaGatsby.js"></script>
-</body>
+body > img{
+    height: 525px;
+    width: 100%;
+}
 
-</html>
+
+
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+
+
+
+.trailer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+.titlu h1{
+    color: rgb(216, 184, 43);
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: 15vh;
+ }
+
+
+
+
+ .subtitlu p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+ }
+
+
+
+
+ .prezentare{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+}
+.prop_prezentare{
+    padding: 0px 7vh;
+}
+.prop_prezentare p{
+    text-indent: 3vh;
+}
+
+
+
+.distributia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.distributia img{
+    max-width: 100%;
+    width: 1000px;
+    padding-top: 3vh;
+}
+.distributia table{
+    margin-top: 3vh;
+}
+.distributie p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+
+
+ .recenzie p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+    padding-bottom: 3vh;
+ }
+
+ .prop_recenzie{
+    padding: 0px 5vh;
+    text-indent: 5vh;
+ }
+
+
+
+
+.premii p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 3px;
+}
+.prop_premii p{
+    text-align: center;
+}
+
+
+
+
+.date p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+.prop_date{
+    margin-left: calc(44%/2);
+    margin-bottom: 8vh;
+}
+
+
+
+
+.galerie{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+
+
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;   
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    margin-bottom: 3vh;
+}
+
+
+.gallery-slider img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    width: 5vh;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 3vh;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 1vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+      
+.prev-button:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.next-button {
+    right: 1vh;  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+  
+.next-button:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+  
+.gallery-slider img.active {
+    display: block;
+}
