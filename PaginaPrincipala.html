@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filme de văzut într-o viață</title>
+  <link rel="stylesheet" type="text/css" href="PaginaPrincipala.css">
+</head>
+<body>
+
+    <div class="titlu">
+        <h1>Filme de văzut într-o viață</h1>
+    </div>
+    <br>
+
+
+  
+<div id="form-wrapper">
+  <form id="my-form">
+    <div class = "prop_formular">
+      <h3>Dacă doriți să fiți la curent cu filmele care vor apărea, atunci completați următorul formular:</h3>
+    </div>
+    <br> 
+
+    <input type="text" value="Nume" name="Nume" />
+    <input type="email" placeholder="Email" name="email" required />
+    <input type="password" value="secret" />
+    <input type="datetime-local" value="2022-03-19T12:59" />
+
+    <div>
+      <input type="radio" name="gen" id="romantic" />
+      <label for="romantic">Romantic</label>
+      <input type="radio" name="gen" id="acțiune" />
+      <label for="acțiune">Acțiune</label>
+      <input type="radio" name="gen" id="comedie" />
+      <label for="comedie">Comedie</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="terms" />
+      <label for="terms">Sunt de acord cu termenii</label>
+    </div>
+
+    <input type="reset" />
+    <input type="submit" />
+  </form>
+</div>
+
+
+
+    <div class="dropdown">
+      <button class="dropbtn">Filme</button>
+        <div class="dropdown-content">
+          <a href="PaginaGatsby.html">Marele Gatsby</a>
+          <a href="PaginaTitanic.html">Titanic</a>
+        </div>
+    </div>
+
+
+    <script src="PaginaPrincipala.js"></script>
+</body>
+</html>
