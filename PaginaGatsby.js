@@ -1,8 +1,22 @@
+var subtitlu = document.querySelector('.subtitlu');
 var prevButton = document.querySelector('.prev-button');
 var nextButton = document.querySelector('.next-button');
 var gallerySlider = document.querySelector('.gallery-slider');
 var images = Array.from(gallerySlider.querySelectorAll('img'));
 var currentIndex = 0;
+
+
+// Ascundeți elementul inițial
+subtitlu.style.height = '0';
+subtitlu.style.overflow = 'hidden';
+subtitlu.style.transition = 'height 2s';
+
+// Faceți-l să apară prin animarea înălțimii
+setTimeout(function() {
+  subtitlu.style.height = '100px'; // Înălțimea dorită
+}, 500);
+
+
 
 // Funcția de inițializare a galeriei
 function initGallery() {
