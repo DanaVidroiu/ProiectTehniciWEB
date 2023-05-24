@@ -1,24 +1,21 @@
 var prevButton = document.querySelector('.prev-button');
 var nextButton = document.querySelector('.next-button');
 var gallerySlider = document.querySelector('.gallery-slider');
-var images = Array.from(gallerySlider.querySelectorAll('img'));
-var currentIndex = 0;
+var images = Array.from(gallerySlider.querySelectorAll('img'));   //vector cu imagini din galerie 
+var currentIndex = 0;      //indexul imaginii din galerie 
 
-// Funcția de inițializare a galeriei
+
 function initGallery() {
-  // Ascunde toate imaginile inițial
   images.forEach(function(image) {
     image.style.display = 'none';
   });
 
-  // Afișează prima imagine
   images[currentIndex].style.display = 'block';
 
-  // Adaugă event listener pentru butoanele de navigare
+
   prevButton.addEventListener('click', function() {
     navigateGallery(-1);
   });
-
   nextButton.addEventListener('click', function() {
     navigateGallery(1);
   });
@@ -38,5 +35,12 @@ function navigateGallery(direction) {
   images[currentIndex].style.display = 'block';
 }
 
-// Apelăm funcția de inițializare a galeriei
 initGallery();
+
+
+
+var element = document.querySelector(".date");
+
+var culoareAleatoare = '#' + Math.floor(Math.random() * 16777215).toString(16);
+element.style.color = culoareAleatoare;
+
