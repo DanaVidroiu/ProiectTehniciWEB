@@ -78,7 +78,6 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-   
   }
 
 body::before {
@@ -254,11 +253,25 @@ td, th {
 
 .prev-button {
     left: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
 }
+
+.prev-button:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+  
 
 .next-button {
     right: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
 }
+  
+.next-button:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+  
 
 .gallery-slider img.active {
     display: block;
