@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+/* butonul*/
 .dropbtn {
     background-color: rgb(216, 184, 43, 0.80);
     color: white;
@@ -75,6 +76,7 @@ body > img{
 
 
 
+
 table,
 th,
 td {
@@ -82,11 +84,14 @@ td {
 }
 
 
+
+
 .trailer{
    display: flex;
    justify-content: center;
    align-items: center;
 }
+
 
 
 
@@ -99,12 +104,14 @@ td {
 
 
 
+
  .subtitlu p{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
     text-align: center;
     font-size: 3vh;
  }
+
 
 
 
@@ -145,6 +152,8 @@ td {
 }
 
 
+
+
  .recenzie p{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
@@ -160,6 +169,7 @@ td {
 
 
 
+
 .premii p{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
@@ -170,6 +180,8 @@ td {
 .prop_premii p{
     text-align: center;
 }
+
+
 
 
 .date p{
@@ -186,12 +198,15 @@ td {
 }
 
 
+
+
 .galerie{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
     text-align: center;
     font-size: 3vh;
 }
+
 
 
 
@@ -235,12 +250,24 @@ td {
 
 .prev-button {
     left: 1vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+      
+.prev-button:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .next-button {
-    right: 1vh;
+    right: 1vh;  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
 }
-
+  
+.next-button:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+  
 .gallery-slider img.active {
     display: block;
 }
