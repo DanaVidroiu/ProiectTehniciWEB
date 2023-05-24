@@ -39,6 +39,8 @@
 .dropdown:hover .dropbtn {background-color:   rgba(215, 183, 39, 0.753);}
   
 
+
+
   span {
     display: inline-block;
     position: fixed;
@@ -56,6 +58,8 @@
   }
 
 
+
+
 body{
     margin: 0;
     padding: 0;
@@ -68,16 +72,23 @@ body > img{
     width: 100%;
 }
 
+
+
+
 table,
 th,
 td {
     border: 1px solid black;
 }
+
+
 .trailer{
    display: flex;
    justify-content: center;
    align-items: center;
 }
+
+
 
 .titlu h1{
     color: rgb(216, 184, 43);
@@ -86,12 +97,16 @@ td {
     font-size: 100px;
  }
 
+
+
  .subtitlu p{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
     text-align: center;
     font-size: 20px;
  }
+
+
 
  .prezentare{
     color: rgb(137, 16, 16);
@@ -102,10 +117,11 @@ td {
 .prop_prezentare{
     padding: 0px 50px;
 }
-
 .prop_prezentare p{
     text-indent: 50px;
 }
+
+
 
 .distributia{
     display: flex;
@@ -121,6 +137,14 @@ td {
 .distributia table{
     margin-top: 30px;
 }
+.distributie p{
+    color: rgb(137, 16, 16);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
  .recenzie p{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
@@ -134,12 +158,7 @@ td {
     text-indent: 50px;
  }
 
-.distributie p{
-    color: rgb(137, 16, 16);
-    font-family: 'Lora', serif;
-    text-align: center;
-    font-size: 20px;
-}
+
 
 .premii p{
     color: rgb(137, 16, 16);
@@ -148,10 +167,10 @@ td {
     font-size: 20px;
     margin-top: 20px;
 }
-
 .prop_premii p{
     text-align: center;
 }
+
 
 .date p{
     color: rgb(137, 16, 16);
@@ -159,10 +178,14 @@ td {
     text-align: center;
     font-size: 20px;
 }
+
+
 .prop_date{
     margin-left: calc(44%/2);
     margin-bottom: 80px;
 }
+
+
 .galerie{
     color: rgb(137, 16, 16);
     font-family: 'Lora', serif;
@@ -170,19 +193,56 @@ td {
     font-size: 20px;
 }
 
-.gallery {
-    margin: 35px;
-    border: 2px solid #ccc;
-    float: left;
-    width: 215px;
-    height: 180px;
-  }
-  
- .gallery:hover {
-    border: 2px solid #777;
-  } 
 
-.gallery img {
-    width: 100%;
-    height: 100%;
-  }
+
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;   
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+    margin-bottom: 30px;
+}
+
+
+.gallery-slider img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.gallery-slider img.active {
+    display: block;
+}
+
