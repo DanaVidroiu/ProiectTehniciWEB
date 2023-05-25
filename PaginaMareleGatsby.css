@@ -41,7 +41,7 @@
   
 
 
-
+/*elementul static imdb*/
   span {
     display: inline-block;
     position: fixed;
@@ -60,7 +60,7 @@
 
 
 
-
+/*fundal*/
 body{
     margin: 0;
     padding: 0;
@@ -209,7 +209,7 @@ td {
 
 
 
-
+/*galerie foto*/
 .gallery {
     position: relative;
     display: flex;
