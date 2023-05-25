@@ -8,7 +8,6 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
 }
-
 .titlu h1:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
@@ -48,6 +47,7 @@ body::before {
 
 
 
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -69,7 +69,7 @@ body::before {
 
 
 
-
+/*formular*/
 .prop_formular {
   color: white;
 }
@@ -95,7 +95,7 @@ input:not([type="radio"]):not([type="checkbox"]) {
 
 
 
-
+/*buton meniu*/
   .dropbtn {
     background-color: #0040476b;
     color: white;
@@ -136,6 +136,4 @@ input:not([type="radio"]):not([type="checkbox"]) {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color:   #2d484b6b;}
-  
-
   
